@@ -9,9 +9,3 @@ $('#tabs div a').click(function(){
 	$(t).fadeIn('slow');
 	return false;
 })
-if($(this).hasClass('inactive')){
-	$('#tabs div a').addClass('inactive');         
-	$(this).removeClass('inactive');
-	$('.container').hide();
-	$(t).fadeIn('slow');    
-}
